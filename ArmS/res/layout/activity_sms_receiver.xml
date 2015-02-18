@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SmsReceiver" >
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Text" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:inputType="textPassword"
+        android:maxLength="4" />
+
+      <EditText
+          android:id="@+id/passwd2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/hint2"
+          android:inputType="textPassword"
+          android:maxLength="4" />
+
+	  <Button
+	      android:id="@+id/Switchon"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:text="@string/button"
+	      android:gravity="center" />
+     
+</LinearLayout>
